@@ -1,0 +1,286 @@
+[33mcommit 2c9bf847151afa52425ec392ef09451b7e5717be[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: orlovskinaju <ajorlovski@gmail.com>
+Date:   Sun Oct 26 20:06:12 2025 -0300
+
+    Removendo arquivos grandes e adicionando .gitignore
+
+ .gitignore | 21 [32m+++++++++++++++++++++[m
+ 1 file changed, 21 insertions(+)
+
+[33mcommit 8a1ee417affec2d7d2ac998207b279906d98a129[m
+Author: orlovskinaju <ajorlovski@gmail.com>
+Date:   Sun Oct 26 20:02:49 2025 -0300
+
+    trabalho
+
+ Trabalho 1/trabalho.py | 4 [32m++[m[31m--[m
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+[33mcommit 5b09be2ba0d17824e4e4ca329c53bf15c4658840[m
+Author: orlovskinaju <ajorlovski@gmail.com>
+Date:   Sun Oct 26 20:00:41 2025 -0300
+
+    tabalho
+
+ .vscode/c_cpp_properties.json                      |    18 [32m+[m
+ .vscode/launch.json                                |    24 [32m+[m
+ .vscode/settings.json                              |    59 [32m+[m
+ Trabalho 1/Ed's Heinz Ad.mp4                       |   Bin [31m0[m -> [32m5290704[m bytes
+ Trabalho 1/ed.jpg                                  |   Bin [31m0[m -> [32m575008[m bytes
+ Trabalho 1/haarcascade_frontalface_default.xml     | 33314 [32m+++++++++++++++++++[m
+ Trabalho 1/trabalho.py                             |   481 [32m+[m
+ Trabalho 1/vine-boom-392646 (1).mp3                |   Bin [31m0[m -> [32m41795[m bytes
+ atividadeAula/atividade.py                         |    34 [32m+[m
+ exemplo1.py                                        |    75 [32m+[m[31m-[m
+ grafos/1148.cpp                                    |    79 [32m+[m
+ .../Include/site/python3.11/pygame/_blit_info.h    |    21 [32m+[m
+ .../Include/site/python3.11/pygame/_camera.h       |    26 [32m+[m
+ .../Include/site/python3.11/pygame/_pygame.h       |   374 [32m+[m
+ .../Include/site/python3.11/pygame/_surface.h      |    30 [32m+[m
+ .../Include/site/python3.11/pygame/camera.h        |   218 [32m+[m
+ .../Include/site/python3.11/pygame/font.h          |    15 [32m+[m
+ .../Include/site/python3.11/pygame/freetype.h      |   114 [32m+[m
+ .../site/python3.11/pygame/include/_pygame.h       |   949 [32m+[m
+ .../site/python3.11/pygame/include/bitmask.h       |   171 [32m+[m
+ .../site/python3.11/pygame/include/pgcompat.h      |   102 [32m+[m
+ .../site/python3.11/pygame/include/pgimport.h      |    67 [32m+[m
+ .../site/python3.11/pygame/include/pgplatform.h    |    83 [32m+[m
+ .../site/python3.11/pygame/include/pygame.h        |    34 [32m+[m
+ .../python3.11/pygame/include/pygame_bufferproxy.h |    56 [32m+[m
+ .../site/python3.11/pygame/include/pygame_font.h   |    50 [32m+[m
+ .../python3.11/pygame/include/pygame_freetype.h    |    42 [32m+[m
+ .../site/python3.11/pygame/include/pygame_mask.h   |    45 [32m+[m
+ .../site/python3.11/pygame/include/pygame_mixer.h  |    71 [32m+[m
+ .../site/python3.11/pygame/include/sse2neon.h      |  6203 [32m++++[m
+ .../Include/site/python3.11/pygame/mask.h          |     7 [32m+[m
+ .../Include/site/python3.11/pygame/mixer.h         |    14 [32m+[m
+ .../Include/site/python3.11/pygame/palette.h       |   123 [32m+[m
+ .../Include/site/python3.11/pygame/pgarrinter.h    |    26 [32m+[m
+ .../Include/site/python3.11/pygame/pgbufferproxy.h |     7 [32m+[m
+ .../Include/site/python3.11/pygame/pgcompat.h      |    27 [32m+[m
+ .../Include/site/python3.11/pygame/pgopengl.h      |    20 [32m+[m
+ .../Include/site/python3.11/pygame/pgplatform.h    |    23 [32m+[m
+ .../Include/site/python3.11/pygame/pygame.h        |    32 [32m+[m
+ .../Include/site/python3.11/pygame/scrap.h         |   147 [32m+[m
+ .../Include/site/python3.11/pygame/simd_blitters.h |    84 [32m+[m
+ .../Include/site/python3.11/pygame/surface.h       |   361 [32m+[m
+ reconhecimento_facial/Scripts/Activate.ps1         |   502 [32m+[m
+ reconhecimento_facial/Scripts/activate             |    63 [32m+[m
+ reconhecimento_facial/Scripts/activate.bat         |    34 [32m+[m
+ reconhecimento_facial/Scripts/deactivate.bat       |    22 [32m+[m
+ reconhecimento_facial/Scripts/f2py.exe             |   Bin [31m0[m -> [32m108431[m bytes
+ reconhecimento_facial/Scripts/fonttools.exe        |   Bin [31m0[m -> [32m108432[m bytes
+ reconhecimento_facial/Scripts/numpy-config.exe     |   Bin [31m0[m -> [32m108431[m bytes
+ reconhecimento_facial/Scripts/pip.exe              |   Bin [31m0[m -> [32m108436[m bytes
+ reconhecimento_facial/Scripts/pip3.11.exe          |   Bin [31m0[m -> [32m108436[m bytes
+ reconhecimento_facial/Scripts/pip3.exe             |   Bin [31m0[m -> [32m108436[m bytes
+ reconhecimento_facial/Scripts/pyftmerge.exe        |   Bin [31m0[m -> [32m108429[m bytes
+ reconhecimento_facial/Scripts/pyftsubset.exe       |   Bin [31m0[m -> [32m108430[m bytes
+ reconhecimento_facial/Scripts/python.exe           |   Bin [31m0[m -> [32m274712[m bytes
+ reconhecimento_facial/Scripts/pythonw.exe          |   Bin [31m0[m -> [32m263448[m bytes
+ reconhecimento_facial/Scripts/ttx.exe              |   Bin [31m0[m -> [32m108427[m bytes
+ reconhecimento_facial/pyvenv.cfg                   |     5 [32m+[m
+ reconhecimento_facial/share/man/man1/ttx.1         |   225 [32m+[m
+ teste.py                                           |    10 [32m+[m
+ 60 files changed, 44441 insertions(+), 46 deletions(-)
+
+[33mcommit 30bd02120c99257fd978da232367de8256228a38[m
+Author: orlovskinaju <ajorlovski@gmail.com>
+Date:   Fri Sep 26 15:45:44 2025 -0300
+
+    lista5
+
+ lista5/lista5.py                      |  23 [31m-----------------------[m
+ lista5/resultados/ex1_dilatacao_a.png | Bin [31m79597[m -> [32m0[m bytes
+ lista5/resultados/ex1_dilatacao_b.png | Bin [31m94059[m -> [32m0[m bytes
+ lista5/resultados/ex1_erosao_a.png    | Bin [31m71684[m -> [32m0[m bytes
+ lista5/resultados/ex1_erosao_b.png    | Bin [31m86702[m -> [32m0[m bytes
+ 5 files changed, 23 deletions(-)
+
+[33mcommit c9d6697ba074c73f08eb57d75bb38e2a906e7ded[m
+Author: orlovskinaju <ajorlovski@gmail.com>
+Date:   Thu Sep 25 18:32:41 2025 -0300
+
+    lista5
+
+ lista5/cachorro.png                          | Bin [31m0[m -> [32m3832[m bytes
+ lista5/gato.png                              | Bin [31m0[m -> [32m3790[m bytes
+ lista5/image.png                             | Bin [31m0[m -> [32m557280[m bytes
+ lista5/lista5.py                             | 124 [32m+++++++++++++++++++++++++++[m
+ lista5/quadrados.png                         | Bin [31m0[m -> [32m4410[m bytes
+ lista5/resultados/ex1_dilatacao_a.png        | Bin [31m0[m -> [32m79597[m bytes
+ lista5/resultados/ex1_dilatacao_b.png        | Bin [31m0[m -> [32m94059[m bytes
+ lista5/resultados/ex1_erosao_a.png           | Bin [31m0[m -> [32m71684[m bytes
+ lista5/resultados/ex1_erosao_b.png           | Bin [31m0[m -> [32m86702[m bytes
+ lista5/resultados/ex2_erosao.png             | Bin [31m0[m -> [32m1703[m bytes
+ lista5/resultados/ex2_restaurada.png         | Bin [31m0[m -> [32m2932[m bytes
+ lista5/resultados/ex3_abertura.png           | Bin [31m0[m -> [32m3694[m bytes
+ lista5/resultados/ex3_fechamento.png         | Bin [31m0[m -> [32m3814[m bytes
+ lista5/resultados/ex4_borda_externa.png      | Bin [31m0[m -> [32m4436[m bytes
+ lista5/resultados/ex4_borda_interna.png      | Bin [31m0[m -> [32m4445[m bytes
+ lista5/resultados/ex5_preenchimento.png      | Bin [31m0[m -> [32m3262[m bytes
+ lista5/resultados/ex6_componente_amarelo.png | Bin [31m0[m -> [32m2073[m bytes
+ lista5/resultados/ex7_dilatacao.png          | Bin [31m0[m -> [32m79597[m bytes
+ lista5/resultados/ex7_erosao.png             | Bin [31m0[m -> [32m71684[m bytes
+ lista5/resultados/ex7_gradiente.png          | Bin [31m0[m -> [32m97263[m bytes
+ lista5/ruidos.png                            | Bin [31m0[m -> [32m3828[m bytes
+ 21 files changed, 124 insertions(+)
+
+[33mcommit ac9a49cebbbef14961b8098aed2bee1e46a4bd83[m
+Author: orlovskinaju <ajorlovski@gmail.com>
+Date:   Mon Sep 15 08:16:19 2025 -0300
+
+    lista4
+
+ Lista 4/circuito.tif                      | Bin [31m0[m -> [32m200566[m bytes
+ Lista 4/harewood.jpg                      | Bin [31m0[m -> [32m20719[m bytes
+ Lista 4/igreja.png                        | Bin [31m0[m -> [32m17664[m bytes
+ Lista 4/image.png                         | Bin [31m0[m -> [32m557280[m bytes
+ Lista 4/linhas.png                        | Bin [31m0[m -> [32m7159[m bytes
+ Lista 4/lista4.py                         | 137 [32m++++++++++++++++++++++++++++++[m
+ Lista 4/nuts.jpg                          | Bin [31m0[m -> [32m44804[m bytes
+ Lista 4/pontos.png                        | Bin [31m0[m -> [32m32507[m bytes
+ Lista 4/resultados/circuito_mediana_1.png | Bin [31m0[m -> [32m111176[m bytes
+ Lista 4/resultados/circuito_mediana_2.png | Bin [31m0[m -> [32m102075[m bytes
+ Lista 4/resultados/circuito_mediana_3.png | Bin [31m0[m -> [32m98090[m bytes
+ Lista 4/resultados/harewood_otsu.png      | Bin [31m0[m -> [32m5134[m bytes
+ Lista 4/resultados/igreja_canny.png       | Bin [31m0[m -> [32m2242[m bytes
+ Lista 4/resultados/image_otsu.png         | Bin [31m0[m -> [32m4209[m bytes
+ Lista 4/resultados/linhas_combinadas.png  | Bin [31m0[m -> [32m3679[m bytes
+ Lista 4/resultados/linhas_diag-45.png     | Bin [31m0[m -> [32m2323[m bytes
+ Lista 4/resultados/linhas_diag45.png      | Bin [31m0[m -> [32m2321[m bytes
+ Lista 4/resultados/linhas_horizontal.png  | Bin [31m0[m -> [32m1831[m bytes
+ Lista 4/resultados/linhas_vertical.png    | Bin [31m0[m -> [32m3158[m bytes
+ Lista 4/resultados/nuts_otsu.png          | Bin [31m0[m -> [32m7133[m bytes
+ Lista 4/resultados/pontos_detectados.png  | Bin [31m0[m -> [32m721[m bytes
+ Lista 4/resultados/root_region.png        | Bin [31m0[m -> [32m1377[m bytes
+ Lista 4/resultados/snow_otsu.png          | Bin [31m0[m -> [32m6126[m bytes
+ Lista 4/root.jpg                          | Bin [31m0[m -> [32m162155[m bytes
+ Lista 4/snow.jpg                          | Bin [31m0[m -> [32m25041[m bytes
+ 25 files changed, 137 insertions(+)
+
+[33mcommit bcecb0dd1220e747e6dc9cc17f55eb6bf503912b[m
+Author: orlovskinaju <ajorlovski@gmail.com>
+Date:   Mon Sep 8 14:28:19 2025 -0300
+
+    lista3
+
+ Lista3/arara.png                          | Bin [31m0[m -> [32m118685[m bytes
+ Lista3/arara_filtro.png                   | Bin [31m0[m -> [32m6366[m bytes
+ Lista3/barra1.png                         | Bin [31m0[m -> [32m2171[m bytes
+ Lista3/barra2.png                         | Bin [31m0[m -> [32m2171[m bytes
+ Lista3/barra3.png                         | Bin [31m0[m -> [32m238[m bytes
+ Lista3/barra4.png                         | Bin [31m0[m -> [32m2173[m bytes
+ Lista3/image.png                          | Bin [31m0[m -> [32m557280[m bytes
+ Lista3/lista3.py                          | 192 [32m++++++++++++++++++++++++++++++[m
+ Lista3/resultados/arara_rejeita_banda.png | Bin [31m0[m -> [32m162629[m bytes
+ Lista3/resultados/image_high.png          | Bin [31m0[m -> [32m104491[m bytes
+ Lista3/resultados/image_low.png           | Bin [31m0[m -> [32m59394[m bytes
+ Lista3/resultados/image_passa_banda.png   | Bin [31m0[m -> [32m127069[m bytes
+ Lista3/resultados/image_rejeita_banda.png | Bin [31m0[m -> [32m117147[m bytes
+ Lista3/resultados/img1_fourier.png        | Bin [31m0[m -> [32m196941[m bytes
+ Lista3/resultados/img2_fourier.png        | Bin [31m0[m -> [32m349975[m bytes
+ Lista3/resultados/img3_fourier.png        | Bin [31m0[m -> [32m202854[m bytes
+ Lista3/resultados/img4_fourier.png        | Bin [31m0[m -> [32m13457[m bytes
+ Lista3/resultados/img5_fourier.png        | Bin [31m0[m -> [32m13457[m bytes
+ Lista3/resultados/img6_fourier.png        | Bin [31m0[m -> [32m12484[m bytes
+ Lista3/resultados/img7_fourier.png        | Bin [31m0[m -> [32m13457[m bytes
+ Lista3/resultados/teste_high.png          | Bin [31m0[m -> [32m19455[m bytes
+ Lista3/resultados/teste_low.png           | Bin [31m0[m -> [32m105657[m bytes
+ Lista3/resultados/teste_passa_banda.png   | Bin [31m0[m -> [32m258425[m bytes
+ Lista3/resultados/teste_rejeita_banda.png | Bin [31m0[m -> [32m239602[m bytes
+ Lista3/teste.tif                          | Bin [31m0[m -> [32m474046[m bytes
+ 25 files changed, 192 insertions(+)
+
+[33mcommit 5d35b207f04362cf7b92b5e5a1dbef88a363690c[m
+Author: orlovskinaju <ajorlovski@gmail.com>
+Date:   Tue Sep 2 10:29:54 2025 -0300
+
+    lista2
+
+ Lista2/image.png                                   | Bin [31m0[m -> [32m557280[m bytes
+ Lista2/lena.png                                    | Bin [31m0[m -> [32m97982[m bytes
+ Lista2/lista2.py                                   | 180 [32m++++[m
+ Lista2/resultados/image1.png                       | Bin [31m0[m -> [32m401019[m bytes
+ Lista2/resultados/image2.png                       | Bin [31m0[m -> [32m1127752[m bytes
+ Lista2/resultados/img1_lap.png                     | Bin [31m0[m -> [32m173043[m bytes
+ Lista2/resultados/img1_media.png                   | Bin [31m0[m -> [32m81538[m bytes
+ Lista2/resultados/img1_mediak.png                  | Bin [31m0[m -> [32m81856[m bytes
+ Lista2/resultados/img1_mediana.png                 | Bin [31m0[m -> [32m85497[m bytes
+ Lista2/resultados/img1_prewitt.png                 | Bin [31m0[m -> [32m123928[m bytes
+ Lista2/resultados/img1_roberts.png                 | Bin [31m0[m -> [32m1078[m bytes
+ Lista2/resultados/img1_sobel.png                   | Bin [31m0[m -> [32m130832[m bytes
+ Lista2/resultados/img2_lap.png                     | Bin [31m0[m -> [32m40526[m bytes
+ Lista2/resultados/img2_media.png                   | Bin [31m0[m -> [32m31353[m bytes
+ Lista2/resultados/img2_mediak.png                  | Bin [31m0[m -> [32m31052[m bytes
+ Lista2/resultados/img2_mediana.png                 | Bin [31m0[m -> [32m30301[m bytes
+ Lista2/resultados/img2_prewitt.png                 | Bin [31m0[m -> [32m27866[m bytes
+ Lista2/resultados/img2_roberts.png                 | Bin [31m0[m -> [32m414[m bytes
+ Lista2/resultados/img2_sobel.png                   | Bin [31m0[m -> [32m28160[m bytes
+ Lista2/resultados/lena1.png                        | Bin [31m0[m -> [32m278444[m bytes
+ Lista2/resultados/lena2.png                        | Bin [31m0[m -> [32m842391[m bytes
+ .../AULA_3_ExemplosFiltragem/AULA_3_Filtragem.py   | 368 [32m++++++++[m
+ .../AULA_3_ExemplosFiltragem/Filtragem.ipynb       | 957 [32m+++++++++++++++++++++[m
+ aula da Lista2/AULA_3_ExemplosFiltragem/board.jpg  | Bin [31m0[m -> [32m97621[m bytes
+ .../AULA_3_ExemplosFiltragem/gradient_noise.png    | Bin [31m0[m -> [32m85755[m bytes
+ aula da Lista2/AULA_3_ExemplosFiltragem/lena.png   | Bin [31m0[m -> [32m97982[m bytes
+ .../AULA_3_ExemplosFiltragem/pattern.png           | Bin [31m0[m -> [32m4934[m bytes
+ 27 files changed, 1505 insertions(+)
+
+[33mcommit 9a50b446509a043ff0f94761dee067619f785be5[m
+Author: orlovskinaju <ajorlovski@gmail.com>
+Date:   Tue Aug 19 17:18:47 2025 -0300
+
+    lista1
+
+ Lista 1/Histograma_A.png                         | Bin [31m0[m -> [32m2203[m bytes
+ Lista 1/Histograma_b_imgAna.png                  | Bin [31m0[m -> [32m2262[m bytes
+ Lista 1/Histograma_g_imgAna.png                  | Bin [31m0[m -> [32m2260[m bytes
+ Lista 1/Histograma_r_imgAna.png                  | Bin [31m0[m -> [32m1978[m bytes
+ Lista 1/Histograma_unequalized.png               | Bin [31m0[m -> [32m1655[m bytes
+ Lista 1/PDI_Exercicios_1_Imagens/imgAna.png      | Bin [31m0[m -> [32m378681[m bytes
+ Lista 1/PDI_Exercicios_1_Imagens/lena.png        | Bin [31m0[m -> [32m556294[m bytes
+ Lista 1/PDI_Exercicios_1_Imagens/lista1.py       | 183 [32m+++++++++++++++++++++++[m
+ Lista 1/PDI_Exercicios_1_Imagens/unequalized.jpg | Bin [31m0[m -> [32m110895[m bytes
+ Lista 1/bit_imgAna_0.png                         | Bin [31m0[m -> [32m55832[m bytes
+ Lista 1/bit_imgAna_1.png                         | Bin [31m0[m -> [32m52267[m bytes
+ Lista 1/bit_imgAna_2.png                         | Bin [31m0[m -> [32m46840[m bytes
+ Lista 1/bit_imgAna_3.png                         | Bin [31m0[m -> [32m38703[m bytes
+ Lista 1/bit_imgAna_4.png                         | Bin [31m0[m -> [32m28768[m bytes
+ Lista 1/bit_imgAna_5.png                         | Bin [31m0[m -> [32m18737[m bytes
+ Lista 1/bit_imgAna_6.png                         | Bin [31m0[m -> [32m10643[m bytes
+ Lista 1/bit_imgAna_7.png                         | Bin [31m0[m -> [32m3939[m bytes
+ Lista 1/bit_lena_0.png                           | Bin [31m0[m -> [32m59862[m bytes
+ Lista 1/bit_lena_1.png                           | Bin [31m0[m -> [32m59933[m bytes
+ Lista 1/bit_lena_2.png                           | Bin [31m0[m -> [32m59503[m bytes
+ Lista 1/bit_lena_3.png                           | Bin [31m0[m -> [32m56040[m bytes
+ Lista 1/bit_lena_4.png                           | Bin [31m0[m -> [32m47441[m bytes
+ Lista 1/bit_lena_5.png                           | Bin [31m0[m -> [32m34920[m bytes
+ Lista 1/bit_lena_6.png                           | Bin [31m0[m -> [32m25864[m bytes
+ Lista 1/bit_lena_7.png                           | Bin [31m0[m -> [32m15694[m bytes
+ Lista 1/cinza.png                                | Bin [31m0[m -> [32m112839[m bytes
+ Lista 1/cinza_1.png                              | Bin [31m0[m -> [32m167634[m bytes
+ Lista 1/equalizacao_imgAna.png                   | Bin [31m0[m -> [32m120685[m bytes
+ Lista 1/equalizacao_lena.png                     | Bin [31m0[m -> [32m186823[m bytes
+ Lista 1/equalizacao_unequalized.png              | Bin [31m0[m -> [32m457971[m bytes
+ Lista 1/logaritmo.png                            | Bin [31m0[m -> [32m351480[m bytes
+ Lista 1/logaritmo_1.png                          | Bin [31m0[m -> [32m523082[m bytes
+ Lista 1/negativo.png                             | Bin [31m0[m -> [32m336908[m bytes
+ Lista 1/negativo_1.png                           | Bin [31m0[m -> [32m521620[m bytes
+ Lista 1/normalizacao.png                         | Bin [31m0[m -> [32m239497[m bytes
+ Lista 1/normalizacao_1.png                       | Bin [31m0[m -> [32m391372[m bytes
+ Lista 1/potencia.png                             | Bin [31m0[m -> [32m280602[m bytes
+ Lista 1/potencia_1.png                           | Bin [31m0[m -> [32m507903[m bytes
+ exemplo1.py                                      |  51 [32m+++++++[m
+ exemplo1/cinza.jpg                               | Bin [31m0[m -> [32m866820[m bytes
+ exemplo1/imagem1.jpg                             | Bin [31m0[m -> [32m539475[m bytes
+ 41 files changed, 234 insertions(+)
+
+[33mcommit 23de9160925bebba220ecf5a57d558a92f6d6c5c[m
+Author: orlovskinaju <ajorlovski@gmail.com>
+Date:   Tue Aug 19 17:18:27 2025 -0300
+
+    first commit
+
+ README.md | Bin [31m0[m -> [32m44[m bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
