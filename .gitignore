@@ -1,0 +1,21 @@
+# Ambientes virtuais
+venv/
+.venv/
+Lib/
+Scripts/
+__pycache__/
+*.pyc
+
+*.pyd
+*.dll
+*.so
+*.log
+*.zip
+*.exe
+*.mp4
+*.jpg
+*.png
+
+
+.vscode/
+.idea/
