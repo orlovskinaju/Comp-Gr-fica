@@ -109,8 +109,8 @@ def rastrear_objeto():
         print("Erro ao acessar a câmera.")
         return
 
-    print("Select a ROI and then press SPACE or ENTER button!")
-    print("Cancel the selection process by pressing c button!")
+    print("Selecione a região e aperte enter!")
+    print("Cancele apertando c")
 
     ret, frame = cap.read()
     if not ret:
